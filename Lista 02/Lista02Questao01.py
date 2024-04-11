@@ -1,4 +1,7 @@
-# Escreva um algoritmo em Python que leia dois valores inteiros e apresente o maior dos valores lidos, ou se os números são iguais.
+'''
+Escreva um algoritmo em Python que leia dois valores inteiros e apresente o maior dos valores
+lidos, ou se os números são iguais.
+'''
 
 numero1 = int(input('Informe o 1º valor: '))
 numero2 = int(input('Informe o 2º valor: '))
