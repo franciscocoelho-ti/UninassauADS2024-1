@@ -21,3 +21,5 @@ elif p == 3:
         print('O valor de B é impar')
 else:
     print('Opção inválida')
+
+
