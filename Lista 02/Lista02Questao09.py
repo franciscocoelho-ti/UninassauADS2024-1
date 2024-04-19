@@ -69,7 +69,7 @@ else:
     # Resultados
     print('Televisão : R$ 0,00')
 
-
+d
 # Verificar gasto com o Telefone
 if uso_telefone == 'S' or uso_telefone == 's':
     valor_total = valor_total + 1.75
