@@ -8,3 +8,18 @@ a ser pago pelo cliente, exibindo as devidas mensagens. suponha que todo vencime
 o dia dez de cada mês e os clientes nunca deixam para pagar no mês seguinte.
 '''
 
+dia_vencimento = int(input('Informe o dia de vencimento (até dia 10): '))
+dia_pagamento = int(input('Informe o dia de pagamento: '))
+valor_prestacao = float(input('Informe o valor da prestação: '))
+
+if dia_pagamento <= dia_vencimento:
+    valor_prestacao = valor_prestacao - (valor_prestacao * 0.10)
+    print('Parabéns, sua prestação está em dias.')
+elif dia_pagamento > (dia_vencimento + 5):
+    multa = (valor_prestacao * 0.02) * (dia_pagamento - dia_vencimento)
+    valor_prestacao = valor_prestacao + multa
+
+# Resultado
+print('Valor a Pagar: R$ ', valor_prestacao)
+
+
