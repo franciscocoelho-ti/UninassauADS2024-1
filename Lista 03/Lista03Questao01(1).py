@@ -24,3 +24,4 @@ while contador <= numero_n:
 # Ao final exibe-se o valor da variável soma.
 print('A soma foi', soma)
 
+
